@@ -3,47 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body{
-  background-color: antiquewhite;
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0;
 }
 
 .header {
   background-color: rgba(179, 177, 177, 0.518);
   padding: 1.5%;
   border-bottom: 5px solid #09859b;
+  display: flex;
+  align-items: center;
+}
+
+.titulo-container {
+  display: flex;
+  align-items: baseline;
+  margin-left: 35%;
 }
 
 .inicio, .inicio2 {
   font-family: "Source Serif 4", serif;
   font-size: 180%;
   color: white;
-  margin-top: -5%;
-  margin-left: 38%;
-  
+  margin-right: 5px;
 }
 
 .inicio2 {
   color: #09859b;
-  margin-top: -2.12%;
-  margin-left: 43.6%;
 }
 
 .img {
   width: 4.5%;
-  margin: 10px auto 2% auto;
-  display: block;
-  margin-left:15% ;
-  margin-top: -1%;
+  margin-right: 10px;
 }
 
 .container {
   width: 80%;
   max-width: 600px;
   margin: 20px auto;
-  border-collapse: collapse;
   box-shadow: 0 0 10px #09859b;
   background-color: #fff;
-  margin-top: 8%;
+  margin-top: 10%;
+  flex-grow: 1;
 }
 
 .site1, .site2, .site3 {
@@ -66,69 +71,87 @@ a {
 .init {
   font-size: 140%;
   padding: 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
   background-color: #09859b;
   color: white;
 }
 
-.front {
-  text-align: center;
-}
-.footer{
-  margin-top: 16.8%;
+.footer {
   background-color: rgba(179, 177, 177, 0.518);
   padding: 1.5%;
   border-top: 5px solid #09859b;
-}
-.ifro{
   text-align: center;
+  margin-top: 7.62%;
+  width: 100%;
 }
-.git{
-  margin-left: 46%;
+
+.git, .insta {
   width: 2.5%;
-  cursor: pointer;;
+  cursor: pointer;
+  margin-bottom: 0.3%;
+  align-items: center;
 }
-.info{
-  margin-top: 0.5%;
+
+.footer {
+  background-color: rgba(179, 177, 177, 0.518);
+  padding: 1.5%;
+  border-top: 5px solid #09859b;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
-.insta{
-  margin-left: 2%;
-  width: 2.5%;
-  cursor: pointer;;
+.rodape{
+  margin-top: 1%;
 }
-.ifro,.info{
-  margin-top: 0.5%;
+@media( max-width:480px){
+  .footer{
+    margin-top: 45.5%;
+    padding: 3%;
+  }
+  .container{
+    margin-top: 45%;
+  }
+  .git{
+    width: 5%;
+  }
+  .insta{
+    width: 5%;
+  }
 }
 
 @media (max-width: 768px) {
-.inicio, .inicio2 {
-  font-size: 150%;
-  margin-top: 0;
-}
-.img {
-  width: 10%;
-}
+  .inicio, .inicio2 {
+    font-size: 150%;
+    text-align: center;
+  }
+  .img {
+    width: 10%;
+  }
+  .titulo-container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
-.inicio, .inicio2 {
-  font-size: 120%;
-  margin-left: 0;
-}
-.container {
-  width: 90%;
-}
-.init {
-  padding: 10px;
-  font-size: 120%;
-}
-.site1, .site2, .site3 {
-  padding: 10px;
-  font-size: 110%;
+  .inicio, .inicio2 {
+    font-size: 120%;
+    text-align: center;
+    margin-left: 0;
   }
-.img {
-  width: 15%;
-}
+  .container {
+    width: 90%;
+  }
+  .init {
+    padding: 10px;
+    font-size: 120%;
+  }
+  .site1, .site2, .site3 {
+    padding: 10px;
+    font-size: 110%;
+  }
+  .img {
+    width: 15%;
+  }
 }
