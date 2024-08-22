@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: rgba(179, 177, 177, 0.518);
+  padding: 1.5%;
+  border-bottom: 5px solid #09859b;
+}
+
+.inicio, .inicio2 {
+  font-family: "Source Serif 4", serif;
+  font-size: 180%;
+  color: white;
+  margin-top: -5%;
+  margin-left: 38%;
+  
+}
+
+.inicio2 {
+  color: #09859b;
+  margin-top: -2.12%;
+  margin-left: 43.6%;
+}
+
+.img {
+  width: 4.5%;
+  margin: 10px auto 2% auto;
+  display: block;
+  margin-left:15% ;
+  margin-top: -1%;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #09859b;
+  background-color: #fff;
+  margin-top: 8%;
+}
+
+.site1, .site2, .site3 {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: rgba(179, 177, 177, 0.518);
+  font-size: 130%;
+}
+
+.site1:hover, .site2:hover, .site3:hover {
+  background-color: #237b8a58;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.init {
+  font-size: 140%;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #09859b;
+  color: white;
+}
+
+.front {
+  text-align: center;
+}
+.footer{
+  margin-top: 16.8%;
+  background-color: rgba(179, 177, 177, 0.518);
+  padding: 1.5%;
+  border-top: 5px solid #09859b;
+}
+.ifro{
+  text-align: center;
+}
+.git{
+  margin-left: 46%;
+  width: 2.5%;
+  cursor: pointer;;
+}
+.info{
+  margin-top: 0.5%;
+  text-align: center;
+}
+.insta{
+  margin-left: 2%;
+  width: 2.5%;
+  cursor: pointer;;
+}
+.ifro,.info{
+  margin-top: 0.5%;
+}
+
+@media (max-width: 768px) {
+.inicio, .inicio2 {
+  font-size: 150%;
+  margin-top: 0;
+}
+.img {
+  width: 10%;
+}
+}
+
+@media (max-width: 480px) {
+.inicio, .inicio2 {
+  font-size: 120%;
+  margin-left: 0;
+}
+.container {
+  width: 90%;
+}
+.init {
+  padding: 10px;
+  font-size: 120%;
+}
+.site1, .site2, .site3 {
+  padding: 10px;
+  font-size: 110%;
+  }
+.img {
+  width: 15%;
+}
+}

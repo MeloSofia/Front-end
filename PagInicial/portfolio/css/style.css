@@ -1,0 +1,105 @@
+*{font-size: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.body{
+  background-color: white;
+} 
+.header{
+  background-color: rgba(179, 177, 177, 0.518);
+  padding: 1.5%;
+  border-bottom: 5px solid #09859b;
+  display: flex;
+  justify-content: space-around;
+  width: 97%;
+}
+.cabeca{
+  font-family: "Alegreya", serif;
+  display: flex;
+  gap: 7%;
+  margin-left: 20%;
+  font-size: 120%;
+  width: 42%;
+  margin-top: 0.5%;
+}
+
+.sobre{
+  text-decoration: none ;
+  cursor: pointer;
+  color: white;
+}
+.sobre:hover{
+  color: #09859b;
+}
+.Experiência{
+  text-decoration: none ;
+  cursor: pointer;
+  color: white;
+}
+.Experiência:hover{
+  color: #09859b;
+}
+.Projetos{
+  text-decoration: none ;
+  cursor: pointer;
+  color: white;
+}
+.Projetos:hover{
+  color: #09859b;
+}
+.contact{
+  text-decoration: none ;
+  cursor: pointer;
+  color: white;
+}
+.contact:hover{
+  color: #09859b;
+}
+img{
+  background-color: #ddd;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;  
+  margin-left: 10%;
+  padding: 0.3%;
+  background-color: #09859b;
+  margin-top: 3%;
+}
+.eu{
+  font-size: 140%;
+  font-weight: 100;
+  color: white;
+  margin-left: 10%;
+  width: 15%;
+  margin-top: 0.5%;
+}
+.lines{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+.frase{
+  font-size: 120%;
+  margin-left: 30%;
+  margin-top: -12%;
+  font-size: 125%;
+}
+.apres{
+  margin-left: 15%;
+  margin-top: 1%;
+}
+.ola{
+  margin-left: 4%;
+  color: rgb(110, 86, 66);
+}
+.sof{
+  margin-left: 4.5%;
+  color: rgb(59, 37, 18);
+}
+.est{
+  margin-left: 5%;
+}
