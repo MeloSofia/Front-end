@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  font-family: "Quicksand", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 35px;
+
+}
+.title > h2{
+  border-radius: 50px;
+  background-color: rgba(18, 55, 41, 0.649);
+  font-weight: normal;
+  padding: 5px;
+  width: 383px;
+  text-align: center;
+}
+
+body{
+  background-color:#102c16c9;
+}
+
+.container{
+  font-weight: 700;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color:black;
+  font-style: normal;
+  flex-wrap: wrap;
+  font-family: "Quicksand", sans-serif;
+}
+
+.book{
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+}
+.book h2{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: left;
+}
+
+.ceifador{ 
+  width: 48%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(53, 13, 4);
+}
+.nuvem{ 
+  width: 55%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(16, 75, 61);
+}
+.timbre{ 
+  width: 52%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(6, 59, 31);
+}
+.img{
+  transition: all ease-in-out 0.2s;
+}
+.img:hover{
+  transition: all ease-in-out 0.2s;
+  box-shadow:0px 0px 20px 0px #ffffff;
+}
+.menu{
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.tela{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 105px;
+  font-weight: normal;
+
+}
+.diario{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: normal;
+  margin-right: 125px;
+}
+.tela:hover{
+  color: #024b04;
+  font-size: 22px;
+}
+.diario:hover{
+  color: #024b04;
+  font-size: 22px;
+}
+
+li{
+  display: inline;
+  font-size: 20px;
+}
+.principal{
+  display: flex;
+  background-color: rgba(73, 118, 59, 0.505);
+  justify-content: space-around;
+}
+.livro{
+  width: 35px;
+  margin-right: 665px;
+}
+.rodape{
+  width: 99.4%;
+  text-align: center;
+  background-color: rgba(73, 118, 59, 0.505);
+  padding: 25px 5px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 11%;
+  flex-direction: column;
+
+}
+.rodape h4{
+  font-weight: 500;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tel{
+  width: 24px;
+  margin-right: 10px;
+}
+.git{
+  width: 24px;
+  margin-right: 10px;
+}
+.ifro{
+  width: 14px; 
+  margin-right: 10px;
+}
+.contact2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.link:hover{
+  color: #024b04;
+}
+.local{
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
