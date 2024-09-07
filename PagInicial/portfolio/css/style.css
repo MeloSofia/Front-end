@@ -11,7 +11,7 @@ html {
 body {
   scroll-padding-top: 10px;
   background-color: white;
-  padding-top: 100px; /* Adicione esta linha */
+  padding-top: 100px;
 }
 
 .header {
@@ -25,7 +25,9 @@ body {
   left: 0;
   background-color: white;
   z-index: 1000; 
+  flex-wrap: wrap;
 }
+
 .cabeca {
   font-family: "Italiana", sans-serif;
   font-weight: 500;
@@ -33,8 +35,29 @@ body {
   display: flex;
   gap: 7%;
   font-size: 150%;
-  margin: 0.5% 20% 0 20%;
-  width: 42%;
+  margin: 0.5% auto;
+  width: auto;
+  align-items: center; 
+}
+
+.cabeca .contato {
+  margin-left: auto; 
+}
+
+@media (max-width: 768px) {
+  .cabeca {
+    font-size: 120%;
+    margin: 0.5% 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cabeca {
+    font-size: 100%;
+    margin: 0.5% 5%;
+    gap: 3%;
+    margin-left: -10%;
+  }
 }
 
 .sobre, .Experiência, .Projetos, .contact, .eu {
@@ -78,6 +101,43 @@ body {
   font-size: 125%;
   margin: -9% 0 0 23%;
 }
+@media (max-width: 768px){
+    .frase {
+    font-size: 125%;
+    margin: -9% 0 0 23%;
+    margin-top: 18%;
+    margin-left: 1%;
+  }
+    .est {
+    display: flex;
+    margin-left: 10%;
+    border-bottom: 2px solid #B3E7C7;
+    
+  }
+    .rond {
+    display: flex;
+    margin: -17% 0 0 4%;
+    font-size: 70%;
+  }
+}
+@media(max-width: 480px){
+    .frase {
+    font-size: 125%;
+    margin: -9% 0 0 23%;
+    margin-top: 18%;
+    margin-left: 1%;
+  }
+    .est {
+    display: flex;
+    width: 17%;
+    margin-left: 10%;
+    border-bottom: 2px solid #B3E7C7;
+  }
+    .rond {
+    display: flex;
+    font-size: 50%;
+  }
+}
 
 .apres {
   scroll-margin-top: 570px;
@@ -88,7 +148,8 @@ body {
   margin-top: -17%;
   margin-left: 8%;
 }
-.bem{
+
+.bem {
   margin-left: 8%;
   font-size: 85%;
   margin-top: 0.5%;
@@ -119,6 +180,23 @@ body {
 .sobreM {
   margin-top: -32%;
   text-align: center;
+}
+@media (max-width: 768px){
+  .sobreM{
+    font-size: 100%;
+    margin-top: -38%;
+  }
+  .texto {
+    font-size: 80%;
+    margin-left: 45%;
+    font-weight: 200;
+    margin-top: 2%;
+  }
+  .img3 {
+    display: flex;
+    width: 105%;
+  }
+
 }
 
 .section {
@@ -256,3 +334,4 @@ input[type="submit"]:hover {
 .rodape{
   margin-top: 1%;
 }
+
