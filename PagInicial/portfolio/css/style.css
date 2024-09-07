@@ -33,7 +33,7 @@ body {
   font-weight: 500;
   font-style: normal;
   display: flex;
-  gap: 7%;
+  gap: 25%;
   font-size: 150%;
   margin: 0.5% auto;
   width: auto;
@@ -245,7 +245,7 @@ body {
   font-weight: 100;
   font-size: 70%;
 }
-.ativ1{
+.ativ1, .ativ2{
   font-weight: 100;
   font-size: 70%;
   margin-top: 4%;
@@ -266,7 +266,15 @@ body {
   width: 50%;
   border-radius: 34px;
 }
+.read{
+  width: 50%;
+  border-radius: 34px;
+}
 .flex:hover{
+  transition: all ease-in-out 0.2s;
+  box-shadow:0px 0px 30px 0px  rgb(11, 69, 17);
+}
+.read:hover{
   transition: all ease-in-out 0.2s;
   box-shadow:0px 0px 30px 0px  rgb(11, 69, 17);
 }
