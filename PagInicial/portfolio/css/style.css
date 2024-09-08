@@ -2,6 +2,7 @@
   font-size: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Quicksand", sans-serif;;
 }
 
 html {
@@ -321,7 +322,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1025px) {
   .link {
-    font-size: 100%;
+    font-size: 90%;
     gap: 5%;
   }
   .header{
@@ -332,6 +333,7 @@ input[type="submit"]:hover {
   }
   .frase{
     margin-top: 15%;
+    font-size: 90%;
   }
   .eu{
     font-size: 100%;
@@ -340,8 +342,11 @@ input[type="submit"]:hover {
     width: 100%;
   }
   .img{ 
-    height: 50%;
-    width: 50%;
+    object-fit: cover;
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
   }
   .apres{
     flex-direction: column;
@@ -373,6 +378,9 @@ input[type="submit"]:hover {
   }
   .sobreM{
     margin-top: 2%;
+  }
+  .projetos1{
+    font-size: 75%;
   }
   .separacao, .ativ1, .ativ2, .ativ3{
     display: flex;
