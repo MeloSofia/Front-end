@@ -11,32 +11,23 @@ html {
 body {
   scroll-padding-top: 10px;
   background-color: white;
-  padding-top: 100px;
 }
 
 .header {
-  position: fixed;
   padding: 1.5%;
   border-bottom: 5px solid #B3E7C7;
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: white;
-  z-index: 1000; 
-  flex-wrap: wrap;
+  align-items: center   ;
 }
 
-.cabeca {
+.link{
   font-family: "Italiana", sans-serif;
   font-weight: 500;
   font-style: normal;
   display: flex;
-  gap: 25%;
+  gap: 10%;
   font-size: 150%;
-  margin: 0.5% auto;
-  width: auto;
   align-items: center; 
 }
 
@@ -44,20 +35,10 @@ body {
   margin-left: auto; 
 }
 
-@media (max-width: 768px) {
-  .cabeca {
-    font-size: 120%;
-    margin: 0.5% 10%;
-  }
-}
-
-@media (max-width: 480px) {
-  .cabeca {
-    font-size: 100%;
-    margin: 0.5% 5%;
-    gap: 3%;
-    margin-left: -10%;
-  }
+.img3 {
+  border-radius: 4px;
+  width: 19.5%;
+  height: 19.5%;
 }
 
 .sobre, .Experiência, .Projetos, .contact, .eu {
@@ -73,10 +54,9 @@ body {
 .img {
   background-color: #ddd;
   border-radius: 50%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
-  width: 200px;
-  margin: 10% 0 0 10%;
+  width: 300px;
 }
 
 .eu {
@@ -84,7 +64,6 @@ body {
   font-weight: 400;
   font-size: 160%;
   color: black;
-  margin: 0.5% 0 0 10%;
   width: 15%;
 }
 
@@ -99,104 +78,52 @@ body {
 
 .frase {
   font-size: 125%;
-  margin: -9% 0 0 23%;
-}
-@media (max-width: 768px){
-    .frase {
-    font-size: 125%;
-    margin: -9% 0 0 23%;
-    margin-top: 18%;
-    margin-left: 1%;
-  }
-    .est {
-    display: flex;
-    margin-left: 10%;
-    border-bottom: 2px solid #B3E7C7;
-    
-  }
-    .rond {
-    display: flex;
-    margin: -17% 0 0 4%;
-    font-size: 70%;
-  }
-}
-@media(max-width: 480px){
-    .frase {
-    font-size: 125%;
-    margin: -9% 0 0 23%;
-    margin-top: 18%;
-    margin-left: 1%;
-  }
-    .est {
-    display: flex;
-    width: 17%;
-    margin-left: 10%;
-    border-bottom: 2px solid #B3E7C7;
-  }
-    .rond {
-    display: flex;
-    font-size: 50%;
-  }
+
 }
 
 .apres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   scroll-margin-top: 570px;
-  margin-left: 18%;
+  margin-top: 6%;
+  gap: 2%;
 }
 
 .ola {
   margin-top: -17%;
-  margin-left: 8%;
 }
 
 .bem {
-  margin-left: 8%;
   font-size: 85%;
   margin-top: 0.5%;
 }
 
 .sof {
   font-size: 75%;
-  margin-left: 8.2%;
   margin-top: 0.5%; 
+  width: 100%;
 }
 
 .est {
-  width: 17%;
-  margin-left: 10%;
-  border-bottom: 2px solid #B3E7C7;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-top: 8%;
 }
 
 .rond {
   display: flex;
-  margin: -17% 0 0 4%;
+
 }
 
 .img2 {
-  margin: 3% 0 0 8%;
-  width: 1.5%;
+  height: 7%;
+  width: 7%;
 }
 
 .sobreM {
-  margin-top: -32%;
   text-align: center;
-}
-@media (max-width: 768px){
-  .sobreM{
-    font-size: 100%;
-    margin-top: -38%;
-  }
-  .texto {
-    font-size: 80%;
-    margin-left: 45%;
-    font-weight: 200;
-    margin-top: 2%;
-  }
-  .img3 {
-    display: flex;
-    width: 105%;
-  }
-
 }
 
 .section {
@@ -205,27 +132,26 @@ body {
   font-family: 'Times New Roman', Times, serif;
   padding: 4%;
   text-align: justify;
-  margin: 0;
   margin-top: 8%;
   background-color: #b3e7c7a4;
-  position: relative;
+}
+
+.section2{
+  background-color: #FFFFFF;
 }
 
 .section1 {
-  padding-top: 70px;
-  margin-top: 23%;
-}
-.img3 {
-  border: 2px solid #4B9969;
-  border-radius: 4px;
-  margin-left: 8%;
   display: flex;
-  width: 23%;
+  gap: 4%;
+  align-items: center;
+  padding-top: 70px;
+  
 }
+
 .texto {
-  margin-left: 45%;
   font-weight: 200;
   margin-top: 1%;
+  text-align: justify;
 }
 .espace {
   margin-top: 2%;
@@ -254,6 +180,7 @@ body {
 .separacao{
   margin-top: 2%;
 }
+
 .art{
   width: 50%;
   border-radius: 14px;
@@ -264,15 +191,15 @@ body {
 }
 .flex{
   width: 50%;
-  border-radius: 34px;
+  border-radius: 14px;
 }
 .read{
   width: 50%;
-  border-radius: 34px;
+  border-radius: 14px;
 }
 .ind{
   width: 50%;
-  border-radius: 34px; 
+  border-radius: 14px;
 }
 .ind:hover{
   transition: all ease-in-out 0.2s;
@@ -334,7 +261,6 @@ input[type="submit"]:hover {
   border-top: 5px solid #B3E7C7;
   text-align: center;
   margin-top: 2%;
-  width: 100%;
 }
 .git, .insta {
   width: 2.5%;
@@ -351,3 +277,120 @@ input[type="submit"]:hover {
   margin-top: 1%;
 }
 
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section2>h1{
+  background-color: #B3E7C7;
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 16%;
+}
+
+.sectionAtividades{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   margin-top: 5%;
+}
+
+.separacao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.separacao>a{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separacao>h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+   border-bottom: 2px solid #B3E7C7;
+}
+
+@media (max-width: 1025px) {
+  .link {
+    font-size: 100%;
+    gap: 5%;
+  }
+  .header{
+    padding: 10px 1px;
+    width: 100%;
+    display: flex;
+    gap: 8%;
+  }
+  .frase{
+    margin-top: 15%;
+  }
+  .eu{
+    font-size: 100%;
+  }
+  .body{
+    width: 100%;
+  }
+  .img{ 
+    height: 50%;
+    width: 50%;
+  }
+  .apres{
+    flex-direction: column;
+  }
+  .est{
+    width: 55%;
+  }
+  .frase{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .texto{
+    font-size: 80%;
+  }
+  .section1{
+    flex-direction: column;
+  }
+
+  .textAbout{
+    margin-top: 2px;
+  }
+  .img3{
+    margin-top: 5px;
+    width: 50%;
+    height: 50%;
+  }
+  .separacao, .ativ1, .ativ2, .ativ3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .art, .flex, .ind , .read{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section2>h1{
+    width: 50%;
+  }
+
+  .form>label {
+    font-size: 19px;
+  }
+
+
+  .form>input {
+    width: 95%;
+    font-size: 16px 
+  }
+}
