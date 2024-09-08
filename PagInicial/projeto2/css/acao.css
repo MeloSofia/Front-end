@@ -130,3 +130,54 @@ table {
   margin-left: 66.5%;
   margin-top: 0.5%;
 }
+@media (max-width: 1025px){
+  .vorazes, .bourne, .ilha{
+    display: flex;
+    width: 25%;
+  }
+  .game, .bou, .mapa{
+    width: 65%;
+    font-size: 90%;
+    margin-left: 27%;
+    margin-top: -36%;
+  }
+  .cronica, .conde, .tres{
+    display: flex;
+    width: 25%;
+    margin-left: 0.5%;
+    margin-top: 4%;
+  }
+  .narnia{
+    width: 65%;
+    font-size: 90%;
+    margin-left: 27%;
+    margin-top: -37%;
+  }
+  .oConde{
+    width: 65%;
+    font-size: 90%;
+    margin-left: 27%;
+    margin-top: -35%;
+  }
+  .mosq{
+    width: 65%;
+    font-size: 90%;
+    margin-left: 27%;
+    margin-top: -35%;
+  }
+  table{
+    font-size: 75%;
+    width: 68%;
+    margin-left: 28%;
+  }
+  .livro4{
+    font-size: 75%;
+    width: 68%;
+    margin-left: 28%; 
+  }
+  .livro5{
+    font-size: 75%;
+    width: 68%;
+    margin-left: 28%; 
+  }
+}

@@ -114,16 +114,14 @@ img{
 .sep1{
   margin-top: 2%;
 }
-@media(min-width: 768){
-  .descubra{
+@media(max-width: 1025px){
+    .descubra{
     font-size: 100%;
   }
   .borda, .borda1, .borda2{
     font-size: 100%;
   }
-}
-@media (max-width:768px ){
-  .container{
+    .container{
     margin-top: 5%;
     margin-left: 2%
   }
@@ -143,5 +141,21 @@ img{
   }
   .borda1, .borda2{
     margin-top: 3%;
+  }
+  .titulo{
+    font-size: 95%;
+    margin-bottom: 5%;
+  }
+  .titulo2{
+    font-size: 115%;
+    margin-bottom: 5%;
+  }
+  .titulo3{
+    font-size: 115%;
+    margin-bottom: 5%;
+  }
+  .titulo4{
+    font-size: 120%;
+    margin-bottom: 5%;
   }
 }

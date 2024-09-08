@@ -37,16 +37,13 @@
 .rodape{
   margin-top: 1%;
 }
-@media( max-width:768){
+@media( max-width:1025px){
   .footer{
-    margin-top: 100%;
+    margin-top: 10%;
     padding: 3%;
     height: 100%;
   }
-  .git{
-    width: 5%;
-  }
-  .insta{
+  .git, .insta{
     width: 5%;
   }
 }
