@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.vorazes{
+  display: flex;
+  width: 15%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+}
+.game{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: -21.5%;
+}
+.cronica{
+  display: block;
+  width: 14%;
+  margin-left: 51%;
+  margin-top: -22.8%;
+}
+.narnia{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -20.5%;
+}
+.bourne{
+  display: flex;
+  width: 14.5%;
+  margin-left: 0.5%;
+  margin-top: 3.5%;
+}
+.bou{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: -21.5%; 
+}
+.conde{
+  display: block;
+  width: 14.5%;
+  margin-left: 51%;
+  margin-top: -21.8%;
+}
+.oConde{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -20.5%;
+}
+.ilha{
+  display: flex;
+  width: 14.5%;
+  margin-left: 0.5%;
+  margin-top: 3.5%;
+}
+.mapa{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: -21.5%; 
+}
+.tres{
+  display: block;
+  width: 14.5%;
+  margin-left: 51%;
+  margin-top: -21.8%;
+}
+.mosq{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(14, 58, 19);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -20.5%;
+}
+.açao{
+  width: 32%;
+  border: 1px solid rgb(11, 69, 17);
+  border-radius: 100px;
+  margin-left:16%; 
+  margin-top: 0.5%;
+}
+table {
+  width: 32%;
+  border: 1px solid rgb(11, 69, 17);
+  border-radius: 100px;
+  margin-left:17%; 
+  margin-top: 0.5%;
+}
+.th1, .td1 {
+  border: 1px solid rgb(11, 69, 17);
+  padding: 8px;
+  text-align: left;
+  color: black;
+}
+.th1 {
+  background-color: rgb(11, 69, 17);
+  color: white;
+}
+.livro4{
+  width: 31%;
+  border: 1px solid rgb(11, 69, 17);
+  border-radius: 100px;
+  margin-left: 67.5%;
+  margin-top: 0.5%;
+}
+.livro5{
+  width: 33%;
+  border: 1px solid rgb(11, 69, 17);
+  border-radius: 100px;
+  margin-left: 66.5%;
+  margin-top: 0.5%;
+}

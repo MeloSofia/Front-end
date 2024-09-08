@@ -1,0 +1,103 @@
+.principal{
+  background-color: rgba(71, 87, 168, 0.447);
+  justify-content: space-around;
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+  border-bottom: 1.5px solid rgb(60, 72, 128) ;
+}
+.principal1{
+  background-color: rgba(107, 28, 28, 0.642);
+  justify-content:space-around;
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+}
+.principal2{
+  background-color: rgba(11, 69, 17, 0.628);
+  justify-content:space-around;
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+}
+.principal3{
+  background-color: rgba(22, 77, 126, 0.701);
+  justify-content:space-around;
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+}
+.principal4{
+  background-color: rgba(59, 26, 89, 0.849);
+  justify-content:space-around;
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+}
+.inicio{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.inicio:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.romance{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.romance:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.acao{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.acao:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.ficcao{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.ficcao:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.fant{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.fant:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.bio{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.bio:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.desen{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.desen:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.info{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.info:hover{
+  font-size: 100%;
+  color: rgb(0, 5, 12);
+}
+.livro{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

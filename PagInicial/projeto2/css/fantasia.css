@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.fantas{
+  background-color: rgba(70, 35, 103, 0.674);
+}
+.direita{
+  display: flex;
+  width: 15%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+}
+.descDireita{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgba(70, 35, 103, 0.674);
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: -21.5%;
+}
+.esquerda{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -21.5%;
+}
+.esquerda1{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -25.5%;
+}
+.descEsquerda{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgba(70, 35, 103, 0.674);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -21%;
+}
+table {
+  width: 32%;
+  border: 1px solid rgba(70, 35, 103, 0.674);
+  border-radius: 100px;
+  margin-left:16%; 
+  margin-top: 0.5%;
+}
+
+.fantasy1{
+  width: 31%;
+  border: 1px solid rgba(70, 35, 103, 0.674);
+  border-radius: 100px;
+  margin-left: 67.5%;
+  margin-top: 0.5%;
+}
+th, td {
+  border: 1px solid rgba(70, 35, 103, 0.674);
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: rgba(70, 35, 103, 0.489);
+  color: white;
+}
+.th2, .td2 {
+  border: 1px solid rgba(70, 35, 103, 0.674);
+  padding: 8px;
+  text-align: left;
+  color: black;
+}
+.th2 {
+  background-color: rgba(70, 35, 103, 0.674);
+  color: white;
+}
+.th1 {
+  background-color: rgba(70, 35, 103, 0.674);
+  color: white;
+}
+.th1, .td1 {
+  border: 1px solid rgba(70, 35, 103, 0.674);
+  padding: 8px;
+  text-align: left;
+  color: black;
+}
+.th1 {
+  background-color: rgba(70, 35, 103, 0.674);
+  color: white;
+}

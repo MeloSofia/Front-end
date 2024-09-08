@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.comoeu{
+  display: flex;
+  width: 15%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+}
+
+.out{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -22.5%;
+}
+
+.marido{
+  display: flex;
+  width: 15.3%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+
+.so{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -23.5%;
+}
+.cante{
+  display: flex;
+  width: 15.3%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+.diary{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -23.5%;
+}
+
+.cinco{
+  display: flex;
+  width: 15.3%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+
+.culpa{
+  display: block;
+  width: 15%;
+  margin-left: 51%;
+  margin-top: -26.5%; 
+}
+
+.descComo{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: -22.5%;
+}
+.outlander{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -22.5%;
+}
+.mar{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 16.5%;
+  margin-top: -22%;
+}
+
+.soE{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -22%;
+}
+.sing{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 16.5%;
+  margin-top: -22%;
+}
+.paix{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -22%;
+}
+.five{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 16.5%;
+  margin-top: -22%;
+}
+.star{
+  font-size: 115%;
+  padding: 1%;
+  width: 30%;
+  border: 3px solid rgb(91, 26, 26);
+  border-radius: 15px;
+  margin-left: 66.5%;
+  margin-top: -22%; 
+}
+table {
+  width: 32%;
+  border: 1px solid rgb(91, 26, 26);
+  border-radius: 100px;
+  margin-left:17%; 
+  margin-top: 0.5%;
+}
+.livro4{
+  width: 31%;
+  border: 1px solid rgb(91, 26, 26);
+  border-radius: 100px;
+  margin-left: 67.5%;
+  margin-top: 0.5%;
+}
+.livro5{
+  width: 33%;
+  border: 1px solid rgb(91, 26, 26);
+  border-radius: 100px;
+  margin-left: 66.5%;
+  margin-top: 0.5%;
+}
+th, td {
+  border: 1px solid rgb(91, 26, 26);
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #5728289a;
+  color: white;
+}
+.livro2{
+  width: 31%;
+  border: 1px solid rgb(91, 26, 26);
+  border-radius: 100px;
+  margin-left: 67.5%;
+  margin-top: 0.5%;
+}
+.livro3{
+  width: 33%;
+  border: 1px solid rgb(91, 26, 26);
+  border-radius: 100px;
+  margin-left:16.5%; 
+  margin-top: 0.5%;
+}
