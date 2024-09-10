@@ -345,14 +345,14 @@ input[type="submit"]:hover {
 
 @media (max-width: 1025px) {
   .link {
-    font-size: 90%;
+    font-size: 80%;
     gap: 5%;
   }
   .header{
     padding: 10px 1px;
     width: 100%;
     display: flex;
-    gap: 8%;
+    gap: 1%;
   }
   .frase{
     margin-top: 15%;
